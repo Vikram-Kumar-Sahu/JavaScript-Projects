@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    height: 35%;
+    width: 45%;
+    box-shadow: 10px 0px 15px gray;
+    display: grid;
+    border-radius: 10px;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#counter{
+    text-align: center;
+    font-size: 2.5rem;
+    color: green;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    height: 2rem;
+    width: 4.5rem;
+    font-size: 1.5rem;
+}

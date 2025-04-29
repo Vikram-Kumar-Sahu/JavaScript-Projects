@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>My Contacts</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">MY Contacts</h1>
+        <input type="text" id="filterInput" class="form-control" placeholder="Search names...">
+        <div class="mt-3">
+            <input type="text" id="newName" class="form-control" placeholder="Add new name...">
+            <button id="addNameBtn" class="btn btn-primary btn-block mt-2">Add Name</button>
+        </div>
+        <ul id="names" class="list-group mt-3">
+            <!-- Sections for all 26 alphabets -->
+            <li class="list-group-item active"><h5>A</h5></li><ul id="A" class="list-group"></ul>
+            
+            <li class="list-group-item active"><h5>B</h5></li><ul id="B" class="list-group"></ul>
+            <li class="list-group-item active"><h5>C</h5></li><ul id="C" class="list-group"></ul>
+            <li class="list-group-item active"><h5>D</h5></li><ul id="D" class="list-group"></ul>
+            <li class="list-group-item active"><h5>E</h5></li><ul id="E" class="list-group"></ul>
+            <li class="list-group-item active"><h5>F</h5></li><ul id="F" class="list-group"></ul>
+            <li class="list-group-item active"><h5>G</h5></li><ul id="G" class="list-group"></ul>
+            <li class="list-group-item active"><h5>H</h5></li><ul id="H" class="list-group"></ul>
+            <li class="list-group-item active"><h5>I</h5></li><ul id="I" class="list-group"></ul>
+            <li class="list-group-item active"><h5>J</h5></li><ul id="J" class="list-group"></ul>
+            <li class="list-group-item active"><h5>K</h5></li><ul id="K" class="list-group"></ul>
+            <li class="list-group-item active"><h5>L</h5></li><ul id="L" class="list-group"></ul>
+            <li class="list-group-item active"><h5>M</h5></li><ul id="M" class="list-group"></ul>
+            <li class="list-group-item active"><h5>N</h5></li><ul id="N" class="list-group"></ul>
+            <li class="list-group-item active"><h5>O</h5></li><ul id="O" class="list-group"></ul>
+            <li class="list-group-item active"><h5>P</h5></li><ul id="P" class="list-group"></ul>
+            <li class="list-group-item active"><h5>Q</h5></li><ul id="Q" class="list-group"></ul>
+            <li class="list-group-item active"><h5>R</h5></li><ul id="R" class="list-group"></ul>
+            <li class="list-group-item active"><h5>S</h5></li><ul id="S" class="list-group"></ul>
+            <li class="list-group-item active"><h5>T</h5></li><ul id="T" class="list-group"></ul>
+            <li class="list-group-item active"><h5>U</h5></li><ul id="U" class="list-group"></ul>
+            <li class="list-group-item active"><h5>V</h5></li><ul id="V" class="list-group"></ul>
+            <li class="list-group-item active"><h5>W</h5></li><ul id="W" class="list-group"></ul>
+            <li class="list-group-item active"><h5>X</h5></li><ul id="X" class="list-group"></ul>
+            <li class="list-group-item active"><h5>Y</h5></li><ul id="Y" class="list-group"></ul>
+            <li class="list-group-item active"><h5>Z</h5></li><ul id="Z" class="list-group"></ul>
+        </ul>
+        <div id="alert" class="alert alert-success mt-3" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
